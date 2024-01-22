@@ -1,0 +1,31 @@
+*{
+    background-color: hsl(212, 45%, 89%) ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+}
+
+
+.QR_GENERAL {
+    border-radius: 6px solid black;
+    padding: 10px;
+    position: absolute; /* Cambiado de relative a absolute */
+    top: 100px;
+    left: 50%; /* Cambiado de 35% a 50% */
+    transform: translateX(-50%); /* Centra el elemento horizontalmente */
+    text-align: center;
+    background-color: white;
+    width: auto;
+    height: auto;
+    color: black;
+    
+}
+  
+
+.img{
+    left: 4.5%;
+    width: 100px;
+    padding-top: 10px;
+}
+
+
+
